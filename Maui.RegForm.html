@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <u><center><h1>REGISTRATION FORM</h1></center></u>
+     <style type="text/css">
+      label{
+        width:110px;
+        display:inline-block;
+        margin:4px;
+        border-radius:5px;
+        background:black;
+        color:white;
+        width:190px;
+        padding:4px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        
+      }
+     
+    </style>
+<center>
+</head>
+<body>
+       
+    <label for="firstname">Firstname:</label> 
+     <input type="text" id="firstname" name="firstname" required/><br>
+
+    <label for="middlename">Middlename:</label></td>
+    <input type="text" id="Middle_Name" name="middlename" required/><br>
+
+    <label for="lastname">Lastname:</label>
+    <input type="text" id="Last_Name" name="lastname" required/><br>
+
+   <label for="email">Email:</label>
+            <input type="text" id ="Email_Id" name="email" required/><br>
+       </center>
+
+       <center>
+    <label>Sex:
+         <select name="sex" required>
+         <option value="Select">Select</option>
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+         </select>
+        </center>
+
+        <center>
+     <label>Subjects Taken:<br>
+        
+             <input type="checkbox" name="subjects[]" value=" Math">Math</input><br>
+             <input type="checkbox" name="subjects[]" value="English">English</input><br>
+             <input type="checkbox" name="subjects[]" value="Science">Science</input><br>
+             <input type="checkbox" name="subjects[]" value="Filipino">Filipino</input><br>
+          
+      <br>
+      <input type="submit" value="submit"/>
+      <input type="reset" value="reset"/> 
+
+    
+    </center>
+    </form>
+    </body>
+</html>
